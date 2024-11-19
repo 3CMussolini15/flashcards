@@ -1,4 +1,4 @@
- /*Rafael Freitas 3ºC */
+ /*Rafael Freitas 3ºC  19/11*/
  
  function criaCartao(categoria, pergunta, resposta){
      let container = document.getElementById('container')
@@ -16,6 +16,8 @@
                     </div>
                 </div>
      `
+
+   /*Rafael Freitas 3ºC  19/11*/
 
      let respostaEstaVisivel = false
 
