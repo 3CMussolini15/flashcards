@@ -1,4 +1,4 @@
-/*Rafael Freitas 3ºC*/
+ /*Rafael Freitas 3ºC  19/11*/
 
 :root {
     --text-color: #DBE4EF;
@@ -6,11 +6,14 @@
     --card-back-color: #00F4BF;
 }
 
+ /*Rafael Freitas 3ºC  19/11*/
 
 body{
    background: url('img/bg-desktop.webp');
    font-family: Bai Jamjuree;
 }
+
+ /*Rafael Freitas 3ºC  19/11*/
 
 #container{
     display: flex;
@@ -20,12 +23,16 @@ body{
     gap: 3rem;
 }
 
+ /*Rafael Freitas 3ºC  19/11*/
+
 .cartao{
     margin: 1rem 1rem;
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
 }
+
+ /*Rafael Freitas 3ºC  19/11*/
 
 footer{
     background-color: black;
@@ -36,11 +43,15 @@ footer{
     height: 2rem;
 }
 
+ /*Rafael Freitas 3ºC  19/11*/
+
 footer p{
     text-align: center;
     font-size: 0.6rem;
     margin-top: 0.5rem;
 }
+
+ /*Rafael Freitas 3ºC  19/11*/
 
 .cartao__conteudo{
     background-color: var(--card-front-color);
@@ -52,6 +63,8 @@ footer p{
 
 }
 
+ /*Rafael Freitas 3ºC  19/11*/
+
 .cartao__conteudo p{
     margin-top: 1rem;
     padding: 2rem;
@@ -59,19 +72,27 @@ footer p{
     font-size: 1.4vw;
 }
 
+ /*Rafael Freitas 3ºC  19/11*/
+
 .cartao__conteudo__pergunta p {
     color: var(--text-color);
     font-weight: 500;
 }
+
+ /*Rafael Freitas 3ºC  19/11*/
 
 .cartao__conteudo__resposta p {
     color: var(--card-back-color);
     font-weight: 700;
 }
 
+ /*Rafael Freitas 3ºC  19/11*/
+
 .cartao.active .cartao__conteudo {
     transform: rotateY(180deg);
 }
+
+ /*Rafael Freitas 3ºC  19/11*/
 
 .cartao__conteudo h3{
     color: var(--text-color);
@@ -85,6 +106,8 @@ footer p{
     backface-visibility: hidden;
 }
 
+ /*Rafael Freitas 3ºC  19/11*/
+
 .cartao__conteudo__pergunta, .cartao__conteudo__resposta{
     backface-visibility: hidden;
     position: absolute;
@@ -93,11 +116,15 @@ footer p{
     box-sizing: border-box;
 }
 
+ /*Rafael Freitas 3ºC  19/11*/
+
 .cartao__conteudo__resposta{
     transform: rotateY(180deg);
     background-color: rgba(0, 244, 191, 0.2);
     border: 4px solid var(--card-back-color);
 }
+
+ /*Rafael Freitas 3ºC  19/11*/
 
 @media (max-width:560px){
     
